@@ -1,0 +1,133 @@
+.table{ 
+    margin: 50px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -0px;
+       
+}
+.table table{
+    width: 100%;
+    margin: 0px 30px;
+    padding: 0px;
+    border-radius: 4px;
+    
+    
+}
+th{
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 1px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: white;
+    font-weight: 900;
+    background-color: blue;
+    
+}
+td{
+    padding: 10px 10px;
+    text-align: center;   
+}
+.new-data button{
+    background:rosybrown;
+    padding: 10px 20px;
+    outline:none;
+    border: none;
+    width: 200px;
+    margin: 10px 50px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    border-radius: 4px;
+    background:linear-gradient(70deg,rgba(23,56,78),rgba(34,56,78,3));;
+}
+.new-data button:hover{
+    background:#9068;
+    
+}
+
+tr td{
+    color: white;
+}
+tr:hover{
+    transition: 1s;
+    background: rebeccapurple;
+}
+
+
+@media(max-width:750px){
+    tr th{
+        padding: 2px;
+        font-size: 10px;
+    }
+    tr td{
+        font-size: 10px;
+    }
+    .new-data button{
+        font-size: 10px;
+        width: 150px;
+     }
+}
+@media(max-width:410px){
+    tr th{
+        padding: 2px;
+        font-size: 8px;
+    }
+    tr td{
+        font-size: 9px;
+    }
+    .new-data button{
+        font-size: 10px;
+        width: 150px;
+     }
+    
+}
+@media (max-width:390px) {
+
+ tr td{
+    font-size:7px;
+ }
+ .new-data button{
+    font-size: 10px;
+    width: 150px;
+ }
+    
+}
+/* 
+
+@media (max-width:580px) {
+    
+   tr th{
+    font-size:10px;
+    padding: 5px;
+    
+   } 
+    
+}
+@media (max-width:610px) {
+    
+   tr th{
+    font-size:10px;
+    padding: 5px;
+    
+   } 
+    
+}
+@media (max-width:525px) {
+   tr th{
+    font-size:7px;
+    padding: 0px;
+
+   } 
+   .new-data button{
+    font-size: 10px;
+    padding: 4px;
+    width: 130px;
+   
+   }
+    
+} */
