@@ -8,6 +8,7 @@ const App = () => {
   return (
     <div>
     <Routes>
+    
       <Route path='/' element={<FormData />}/>
       <Route path='/showdata' element={<ShowData/>}/>
       <Route path='/update' element={<Updata/>}/>
