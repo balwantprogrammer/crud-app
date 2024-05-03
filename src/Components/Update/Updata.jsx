@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import './Updata.css'
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-// import { loadConfigFromFile } from 'vite';
 const Updata = () => {
     const navigate = useNavigate();
     const [id,setId] = useState('');

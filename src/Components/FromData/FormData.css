@@ -1,7 +1,9 @@
-.form-data{
+ .form-data{
     display: flex;
     height: 100vh;
     justify-content: center;
+    margin-top: 20px;
+    
     
     
 }
@@ -11,7 +13,6 @@
     align-items: center;
     justify-content: center;
     color:blue;
-    
     border-radius: 3px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
@@ -20,6 +21,11 @@
     box-shadow: 1px 1px 1px 1px;
     
     
+}
+.form-title-data{
+    box-shadow: 1px 10px 10px 10px gainsboro;
+    padding: 0px 15px;
+    height: 50vh;
 }
 .form-title a{
     color: white;
@@ -64,7 +70,24 @@ background: transparent;
 }
 .form-input button:hover{
     background:black;
+  
     transition: 0.3s;
+}
+.read-shodata{
+    padding: 5px;
+    background-color: green;
+    color: #FFF;
+    font-weight: 700;
+   border-radius: 4px;
+   font-size: 15px;
+    text-decoration: none;
+    padding: 5px 20px;
+    
+}
+.read-shodata:hover{
+    background-color:#234990;
+    transition: 1s;
+    
 }
  @media(max-width:750px){
     .form-input-data{
@@ -93,58 +116,9 @@ background: transparent;
     .form-input-data input{
         width: 100%;
     }
-    
+    .read-shodata{
+        font-size: 13px;
+        padding: 5px 15px;
+    }
  }
 
-/* @media(max-width:802px){
-    .form{
-        height: 50vh;
-        
-    }
-    .form-title{
-   padding: 100px; 
-   height: 100%;
-   width: 100px; 
-}
-
- 
-.form-inputdata input{
-    width: 100%;
-}
-    
-}
-
-@media (max-width:600px) {
-    .form-title{ 
-        padding: 10px 100px; 
-        height: 100%;
-        width: 800px;
-        
-        
-          
-     }
-      
-     .form-inputdata input{
-           
-        width: 470px;
-     }
-    
-}
-
-@media(max-width:500px) {
-    .form-title{ 
-        
-        padding: 20px 100px; 
-        
-                
-     }
-     .form-inputdata input{       
-        width: 100%;
-        
-     }
-     .form-title h2{
-        font-size: 15px;
-        
-     }
-    
-} */
